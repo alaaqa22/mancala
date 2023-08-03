@@ -1,0 +1,98 @@
+kalah> n 6 3
+kalah> p
+0 3 3 3 3 3 3
+  3 3 3 3 3 3 0
+kalah> n 10 10
+kalah> p
+ 0 10 10 10 10 10 10 10 10 10 10
+   10 10 10 10 10 10 10 10 10 10  0
+kalah> n 1 a
+kalah> Error! Could not parse number a.
+n 0 -1
+Error! Invalid number of pits or seeds.
+kalah> n 4 2
+kalah> p
+0 2 2 2 2
+  2 2 2 2 0
+kalah> m -1
+kalah> Error! Invalid human pit -1. Range 1 to 4.
+m a
+Error! Could not parse number a.
+kalah> p
+0 2 2 2 2
+  2 2 2 2 0
+kalah>
+kalah> Error! Empty Input.
+m 2
+Machine chose pit 9 with seeds reaching pit 1.
+kalah> p
+1 0 2 2 2
+  3 0 3 3 0
+kalah> l a
+kalah> Error! Could not parse number a.
+l -1
+Error! Minimum level is 1.
+kalah> level 2
+kalah> p
+1 0 2 2 2
+  3 0 3 3 0
+kalah> s
+Machine chose pit 8 with seeds reaching pit 10.
+You must miss a turn.
+Machine chose pit 6 with seeds reaching pit 8.
+kalah> m 1
+Machine chose pit 7 with seeds reaching pit 10.
+You must miss a turn.
+Machine chose pit 9 with seeds reaching pit 3.
+kalah> m 2
+Machine chose pit 8 with seeds reaching pit 9.
+Nobody wins. Tie with 8 seeds for each player.
+kalah> m 3
+kalah> Error! Game over or it is not your turn.
+move 2
+Error! Game over or it is not your turn.
+kalah> n 4 3
+kalah> p
+0 3 3 3 3
+  3 3 3 3 0
+kalah> n 8 9
+kalah> p
+0 9 9 9 9 9 9 9 9
+  9 9 9 9 9 9 9 9 0
+kalah> move 4
+Machine chose pit 10 with seeds reaching pit 2.
+kalah> p
+ 1 10 10 10 10 11 11 11  0
+   10 10  9  0 10 10 10 10  1
+kalah> m 10
+kalah> Error! Invalid human pit 10. Range 1 to 8.
+n 1 2
+kalah> p
+0 2
+  2 0
+kalah> m 1
+Sorry! Machine wins with 3 seeds versus your 1.
+kalah> p
+0 3
+  0 1
+kalah> n 4 2
+kalah> m 1
+Machine chose pit 8 with seeds reaching pit 10.
+You must miss a turn.
+Machine chose pit 6 with seeds reaching pit 8.
+kalah> p
+5 3 0 3 0
+  0 0 3 2 0
+kalah> m 1
+kalah> Error! Invalid move. Pit 1 contains no seeds.
+n 1
+Error! Wrong number of arguments.
+kalah> move
+kalah> Error! Wrong number of arguments.
+level
+Error! Wrong number of arguments.
+kalah> n a
+kalah> Error! Wrong number of arguments.
+quit
+
+Process finished with exit code 0
